@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="layout">
+    <!-- Barra de navegación lateral -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#">Asientos</a></li>
+            <li><a href="#">Generar Registros</a></li>
+            <li><a href="#">Libro Mayor</a></li>
+            <li><a href="#">Reportes</a></li>
+            <li><a href="#">Usuarios</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <h1>{{ title }}</h1>
+        <p>Sistema Contable</p>
+    </div>
+</div>
+{% endblock %}
